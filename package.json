@@ -1,6 +1,6 @@
 {
   "name": "@auxilin/email-service",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "Auxilin",
   "description": "Mailgun wrapper",
   "private": false,
@@ -17,12 +17,10 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "@auxilin/common-logger": "0.1.1",
     "handlebars": "4.0.12",
     "mailgun-js": "0.21.0"
   },
   "devDependencies": {
-    "@auxilin/eslint-config": "0.1.1",
     "all-contributors-cli": "5.4.0",
     "babel-eslint": "10.0.1",
     "eslint": "5.3.0",

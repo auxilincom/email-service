@@ -1,3 +1,3 @@
-const { createConsoleLogger } = require('@auxilin/common-logger');
+const logger = global.logger || console;
 
-module.exports = createConsoleLogger({});
+module.exports = logger;

@@ -1,3 +1,7 @@
+## v0.1.2 (2018-10-17)
+
+* Use global logger instead of local.
+
 ## v0.1.1 (2018-10-12)
 
 * Update readme.
