@@ -1,8 +1,10 @@
 # Email service
 
+[![Auxilin.com — Production ready Node, React starter kit for building products at a warp speed](https://raw.githubusercontent.com/auxilincom/component-template/master/assets/cover-black.png)](https://github.com/auxilincom/auxilin)
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 [![npm version](https://badge.fury.io/js/%40auxilin%2Femail-service.svg)](https://badge.fury.io/js/%40auxilin%2Femail-service) 
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)](https://github.com/auxilincom/email-service/blob/master/LICENSELICENSE)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)](https://github.com/auxilincom/email-service/blob/master/LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![Build Status](http://ci.auxilin.com/api/badges/auxilincom/email-service/status.svg)](http://ci.auxilin.com/auxilincom/email-sercice)
 [![David Dependancy Status](https://david-dm.org/auxilincom/email-service.svg)](https://david-dm.org/auxilincom/email-service)
@@ -12,6 +14,7 @@
 [![Star on GitHub](https://img.shields.io/github/stars/auxilincom/email-service.svg?style=social&label=Stars)](https://github.com/auxilincom/email-service/stargazers)
 [![Follow](https://img.shields.io/twitter/follow/auxilin.svg?style=social&label=Follow)](https://twitter.com/auxilin)
 [![Tweet](https://img.shields.io/twitter/url/https/github.com/auxiliccom/email-service.svg?style=social)](https://twitter.com/intent/tweet?text=I%27m%20using%20Auxilin%20components%20to%20build%20my%20next%20product%20🚀.%20Check%20it%20out:%20https://github.com/auxiliccom/email-service)
+[![@auxilin](https://img.shields.io/badge/%F0%9F%92%AC%20Telegram-t.me/auxilin-blue.svg)](https://t.me/auxilin)
 
 Email service is using [mailgun node client](https://www.npmjs.com/package/mailgun-js) to send emails.
 We are inspired by [mjml](https://github.com/mjmlio/mjml) project. So, you can use mjml in your project and
