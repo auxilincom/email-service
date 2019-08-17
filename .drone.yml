@@ -1,18 +1,40 @@
-pipeline:
-  run-mongo-tests:
-    image: node:10.13.0
-    commands:
-      - chmod +x ./bin/run.sh
-      - ./bin/run.sh
-    when:
-      status: [ failure, success ]
-      event: [pull_request]
+---
+kind: pipeline
+name: tests
 
-  publish-node-mongo:
-    image: plugins/npm
-    secrets: [ npm_username, npm_email, npm_password ]
-    when:
-      event: [ tag ]
-      branches: [ master ]
+steps:
+- name: run-tests
+  image: node:10.16.0
+  commands:
+    - chmod +x ./bin/run.sh
+    - ./bin/run.sh
+  when:
+    event:
+    - pull_request
+    - push
 
-branches: [ master, "*:master" ]
+trigger:
+  branch:
+  - master
+  event:
+  - push
+  - pull_request
+
+---
+kind: pipeline
+name: npm
+
+steps:
+- name: publish-email-service
+  image: plugins/npm
+  settings:
+    username:
+      from_secret: npm_username
+    password:
+      from_secret: npm_password
+    email:
+      from_secret: npm_email
+
+trigger:
+  event:
+  - tag
