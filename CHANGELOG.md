@@ -1,3 +1,8 @@
+## v0.4.0 (2019-02-07)
+
+* Use `eslint` 6.
+* Update drone config.
+
 ## v0.3.0 (2019-02-07)
 
 * Update npm dependencies.

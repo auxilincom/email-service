@@ -1,4 +1,4 @@
-# 0.3.0 API Reference
+# 0.4.0 API Reference
 
 - [MailService](#mailservice)
   - [`constructor(config)`](#constructor-config)
