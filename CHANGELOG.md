@@ -1,3 +1,7 @@
+## v0.4.1 (2019-09-04)
+
+* Update npm dependencies
+
 ## v0.4.0 (2019-02-07)
 
 * Use `eslint` 6.
